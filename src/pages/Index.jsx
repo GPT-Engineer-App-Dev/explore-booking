@@ -1,6 +1,5 @@
-import { Box, Button, Container, Flex, Grid, Heading, HStack, IconButton, Image, Input, InputGroup, InputRightElement, Stack, Text, VStack } from "@chakra-ui/react";
+import { Box, Button, Container, Flex, Grid, Heading, HStack, Image, Input, InputGroup, InputRightElement, Stack, Text, VStack } from "@chakra-ui/react";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
-import { SearchIcon } from "@chakra-ui/icons";
 
 const Index = () => {
   return (
@@ -24,8 +23,8 @@ const Index = () => {
           <Heading size="2xl">Discover Your Next Adventure</Heading>
           <InputGroup size="lg" width="50%">
             <Input placeholder="Search destinations, dates, travelers..." bg="white" color="black" />
-            <InputRightElement>
-              <IconButton aria-label="Search" icon={<SearchIcon />} />
+            <InputRightElement width="4.5rem">
+              <Button h="1.75rem" size="sm" colorScheme="teal">Search</Button>
             </InputRightElement>
           </InputGroup>
           <Button colorScheme="teal" size="lg">Search</Button>
