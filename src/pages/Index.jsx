@@ -23,7 +23,7 @@ const Index = () => {
           <Heading size="2xl">Discover Your Next Adventure</Heading>
           <InputGroup size="lg" width="50%">
             <Input placeholder="Search destinations, dates, travelers..." bg="white" color="black" />
-            <InputRightElement width="4.5rem">
+            <InputRightElement>
               <Button h="1.75rem" size="sm" colorScheme="teal">Search</Button>
             </InputRightElement>
           </InputGroup>
