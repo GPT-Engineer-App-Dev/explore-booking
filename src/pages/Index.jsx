@@ -112,9 +112,9 @@ const Index = () => {
             <Box>
               <Heading size="md" mb={4}>Follow Us</Heading>
               <HStack spacing={4}>
-                <IconButton aria-label="Facebook" icon={<FaFacebook />} />
-                <IconButton aria-label="Instagram" icon={<FaInstagram />} />
-                <IconButton aria-label="Twitter" icon={<FaTwitter />} />
+                <Button as="a" href="https://facebook.com" aria-label="Facebook" leftIcon={<FaFacebook />}>Facebook</Button>
+                <Button as="a" href="https://instagram.com" aria-label="Instagram" leftIcon={<FaInstagram />}>Instagram</Button>
+                <Button as="a" href="https://twitter.com" aria-label="Twitter" leftIcon={<FaTwitter />}>Twitter</Button>
               </HStack>
             </Box>
           </Grid>
